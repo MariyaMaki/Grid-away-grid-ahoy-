@@ -1,0 +1,32 @@
+@media (max-width: 1436px) {
+    .container {
+        width: 1300px;
+        margin: 40px auto;
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;  
+        gap: 35px 35px;
+     
+    }
+}
+
+@media (max-width: 1324px) {
+    .container {
+        width: 80%;
+        margin: 40px auto;
+        display: grid; 
+        grid-template-columns: 1fr 1fr;  
+        gap: 35px 35px;
+     
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 80%;
+        margin: 40px auto;
+        display: grid; 
+        grid-template-columns: 1fr;  
+        gap: 35px 35px;
+     
+    }
+}
