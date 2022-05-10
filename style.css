@@ -57,13 +57,19 @@ a {
     text-transform: uppercase;
     padding: 5px;
     position: relative;
+    transition: all 0.3s;
 }
 
 a:hover {
     background-color: #4aaaf4;
     color: white;
     border-radius: 15px;
-    width: 105px;  
+    width: 105px;
+    transform: translateY(-5px);  
+}
+
+a:focus {
+    transform: translateY(-2px);
 }
 
 a::before {
@@ -74,6 +80,7 @@ a::before {
     position: absolute;
     top: -15px;
     left: 50%;
+    transition: all 0.3s;
     transform: translate(-50%, -50%);
 }
 a:hover::before {
